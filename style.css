@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.navbar_center {
+    margin: 0 auto;
+    margin-left: 450px;
+}
+
+.navbar_logo {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    align-items: center;
+}
+
+.navbar .search-box {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.navbar .search-box input {
+    padding: 5px 10px;
+    border: 1px solid #DBDBDB;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #FAFAFA;    
+}
+
+.navbar .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .icons a {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.navbar .icons a.home {
+    background-image: url('./icons/home.svg');
+}
+
+.navbar .icons a.messenger {
+    background-image: url('./icons/messenger.svg');
+}
+
+.navbar .icons a.location {
+    background-image: url('./icons/location.svg');
+}
+
+.navbar .icons a.like {
+    background-image: url('./icons/like.svg');
+}
+
+.navbar .icons a.avatar {
+    background-image: url('./icons/Avatar.svg');
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.stories {
+    width: 600px;
+    margin: 30px auto;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+}
+
+.post {
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url('./icons/Avatar.svg');
+    background-size: cover;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.nickname {
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.location {
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.post-options {
+    width: 24px;
+    height: 24px;
+    background-image: url('./icons/options.svg');
+    background-size: cover;
+}
+
+.post-image {
+    width: 100%;
+    height: 300px;
+    background-image: url('./icons/post.jpg');
+    background-size: cover;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-actions div {
+    display: flex;
+    gap: 15px;
+}
+
+.post-actions a {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.post-actions a.like {
+    background-image: url('./icons/like.svg');
+}
+
+.post-actions a.comment {
+    background-image: url('./icons/comment.svg');
+}
+
+.post-actions a.share {
+    background-image: url('./icons/share.svg');
+}
+
+.post-actions a.save {
+    background-image: url('./icons/save.svg');
+}
+
+.post-likes {
+    padding: 0 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.post-caption {
+    padding: 8px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.post-caption .nickname {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.post-comments {
+    padding: 0 10px;
+}
+
+.post-comments a {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #989898;
+    text-decoration: none;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment .nickname {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.post-time {
+    padding: 10px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.add-comment {
+    display: flex;
+    border-top: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+.add-comment input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.add-comment button {
+    background: none;
+    border: none;
+    color: #3897f0;
+    cursor: pointer;
+    font-weight: bold;
+}
